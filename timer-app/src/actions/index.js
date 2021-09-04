@@ -22,3 +22,5 @@ export const selectTimer = (index) => {
 		payload: { index },
 	};
 };
+
+// var newState = [...state.slice(0, index), newItem, ...state.slice(index)];
